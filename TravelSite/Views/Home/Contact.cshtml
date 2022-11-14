@@ -1,0 +1,34 @@
+﻿
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="~/css/ContactStyles.css" asp-append-version="true" />
+</head>
+<body>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="Baku">Australia</option>
+      <option value="Bileceri">Canada</option>
+      <option value="Gedebey">USA</option>
+      <option value="Goycay">USA</option>
+    </select>
+
+
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>

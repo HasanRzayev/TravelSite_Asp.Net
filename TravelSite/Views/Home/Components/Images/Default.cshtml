@@ -1,0 +1,27 @@
+﻿
+@model List<string>
+
+
+<link rel="stylesheet" href="~/css/styles_component.css"  />
+
+<div class="carousel">
+  <input id="image1" type="radio" name="image-selector" checked="checked" />
+  <label for="image4">View image 4</label>
+  <img src=@Model[0] />
+
+  <input id="image2" type="radio" name="image-selector" />
+  <label for="image1">View image 1</label>
+  <img src=@Model[1] />
+
+  <input id="image3" type="radio" name="image-selector" />
+  <label for="image2">View image 2</label>
+  <img src=@Model[2]
+00/sports/3" />
+
+  <input id="image4" type="radio" name="image-selector" />
+  <label for="image3">View image 3</label>
+  <img src=@Model[3] />
+
+  <label for="image4">View image 4</label>
+  <label for="image1">View image 1</label>
+</div>
